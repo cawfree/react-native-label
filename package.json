@@ -1,0 +1,34 @@
+{
+  "name": "react-native-label",
+  "version": "0.0.1-alpha.0",
+  "description": "🥇Apply a label to anything in React Native.",
+  "main": "dist",
+  "repository": "https://github.com/cawfree/react-native-label",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "react-native",
+    "label",
+    "banner",
+    "ui"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prettify": "yarn prettier --write \"**/*.js\"",
+    "test": "jest"
+  },
+  "dependencies": {
+    "type-check": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
+  }
+}
